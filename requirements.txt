@@ -8,3 +8,4 @@ APScheduler==3.6.3
 django-import-export
 django-admin-interface
 django-admin-generator
+gunicorn==20.0.4
