@@ -80,13 +80,23 @@ WSGI_APPLICATION = 'marketwatch.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3') ,
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3') ,
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd7810a3ld49281',
+        'USER': 'alltsgxncfyfgt',
+        'PASSWORD': 'd8174e6560be029470f4b0ea6ca649f3262e0c7852561450946c85c6c69561a7',
+        'HOST': 'ec2-34-247-118-233.eu-west-1.compute.amazonaws.com',
+        'CONN_MAX_AGE': 0,
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators

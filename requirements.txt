@@ -9,3 +9,4 @@ django-import-export
 django-admin-interface
 django-admin-generator
 gunicorn==20.0.4
+psycopg2-binary

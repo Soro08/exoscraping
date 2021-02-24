@@ -101,4 +101,6 @@ def getuserinfo(user_url):
 # getuserinfo('https://www.marketwatch.com/game/invest-until-you-die/portfolio?p=1352012&name=chris%20reese')
 
 def getinfo():
-    getuserperpage(0)
+    while i <=17345:
+        getuserperpage(i)
+        i += 10
