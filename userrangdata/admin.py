@@ -33,6 +33,7 @@ class UserRankAdmin(ImportExportModelAdmin):
     resource_class = UserRankResource
 
     search_fields = ('name',)
+    list_per_page = 10
 
 
 def _register(model, admin_class):

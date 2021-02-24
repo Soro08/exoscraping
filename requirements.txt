@@ -10,3 +10,6 @@ django-admin-interface
 django-admin-generator
 gunicorn==20.0.4
 psycopg2-binary
+
+#gunicorn marketwatch.wsgi
+#clock: python manage.py runserver --noreload

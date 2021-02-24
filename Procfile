@@ -1,1 +1,1 @@
-web: gunicorn marketwatch.wsgi
+web: python manage.py runserver --noreload
